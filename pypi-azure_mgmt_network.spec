@@ -4,7 +4,7 @@
 #
 Name     : pypi-azure_mgmt_network
 Version  : 19.3.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/d1/4c/3eee1389c97c6da528665ee50f85b9e4def0fffacaf5fe6e29e42a7104be/azure-mgmt-network-19.3.0.zip
 Source0  : https://files.pythonhosted.org/packages/d1/4c/3eee1389c97c6da528665ee50f85b9e4def0fffacaf5fe6e29e42a7104be/azure-mgmt-network-19.3.0.zip
 Summary  : Microsoft Azure Network Management Client Library for Python
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639047295
+export SOURCE_DATE_EPOCH=1649716166
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
