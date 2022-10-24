@@ -4,7 +4,7 @@
 #
 Name     : pypi-azure_mgmt_network
 Version  : 22.1.0
-Release  : 13
+Release  : 14
 URL      : https://files.pythonhosted.org/packages/e7/5a/f68fa0d00b915eb929b46baa3a1edbe204b20b4c23ec0476b2d0f342c5d7/azure-mgmt-network-22.1.0.zip
 Source0  : https://files.pythonhosted.org/packages/e7/5a/f68fa0d00b915eb929b46baa3a1edbe204b20b4c23ec0476b2d0f342c5d7/azure-mgmt-network-22.1.0.zip
 Summary  : Microsoft Azure Network Management Client Library for Python
