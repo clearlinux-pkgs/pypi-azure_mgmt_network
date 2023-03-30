@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-azure_mgmt_network
-Version  : 22.3.0
-Release  : 21
-URL      : https://files.pythonhosted.org/packages/78/9f/c864eabb2c08a4cde3d87b04452dcbbcd8c2b8d02cd9c718443231e0ffb2/azure-mgmt-network-22.3.0.zip
-Source0  : https://files.pythonhosted.org/packages/78/9f/c864eabb2c08a4cde3d87b04452dcbbcd8c2b8d02cd9c718443231e0ffb2/azure-mgmt-network-22.3.0.zip
+Version  : 23.0.0
+Release  : 22
+URL      : https://files.pythonhosted.org/packages/42/72/d85cc78bdc7cdb7d7fc9fa218a8077021396fd7efd9fac779a42806866bc/azure-mgmt-network-23.0.0.zip
+Source0  : https://files.pythonhosted.org/packages/42/72/d85cc78bdc7cdb7d7fc9fa218a8077021396fd7efd9fac779a42806866bc/azure-mgmt-network-23.0.0.zip
 Summary  : Microsoft Azure Network Management Client Library for Python
 Group    : Development/Tools
 License  : MIT
@@ -17,7 +17,7 @@ Requires: pypi-azure_mgmt_network-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(azure_common)
 BuildRequires : pypi(azure_mgmt_core)
-BuildRequires : pypi(msrest)
+BuildRequires : pypi(isodate)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -52,17 +52,17 @@ Requires: python3-core
 Provides: pypi(azure_mgmt_network)
 Requires: pypi(azure_common)
 Requires: pypi(azure_mgmt_core)
-Requires: pypi(msrest)
+Requires: pypi(isodate)
 
 %description python3
 python3 components for the pypi-azure_mgmt_network package.
 
 
 %prep
-%setup -q -n azure-mgmt-network-22.3.0
-cd %{_builddir}/azure-mgmt-network-22.3.0
+%setup -q -n azure-mgmt-network-23.0.0
+cd %{_builddir}/azure-mgmt-network-23.0.0
 pushd ..
-cp -a azure-mgmt-network-22.3.0 buildavx2
+cp -a azure-mgmt-network-23.0.0 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679325703
+export SOURCE_DATE_EPOCH=1680186933
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
