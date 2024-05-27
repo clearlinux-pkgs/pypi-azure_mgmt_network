@@ -1,5 +1,5 @@
 PKG_NAME := pypi-azure_mgmt_network
-URL = https://files.pythonhosted.org/packages/26/20/c09aefc1f7a14b90161589b0dc9aeaef60b4b8a5edcad2e06f8af9086018/azure-mgmt-network-25.3.0.tar.gz
+URL = https://files.pythonhosted.org/packages/e3/bb/8e98bbf5f0d2c233268631c73858c066b5f883f7dda5b298d2a09c4cdc92/azure-mgmt-network-25.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
