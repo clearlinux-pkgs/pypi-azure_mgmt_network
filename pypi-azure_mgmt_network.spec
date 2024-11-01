@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-azure_mgmt_network
-Version  : 27.0.0
-Release  : 36
-URL      : https://files.pythonhosted.org/packages/bf/aa/bf464fd70eefa8f13f5e5b45d021416d5c9c8d79eabb96f4a673fe91346d/azure_mgmt_network-27.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bf/aa/bf464fd70eefa8f13f5e5b45d021416d5c9c8d79eabb96f4a673fe91346d/azure_mgmt_network-27.0.0.tar.gz
+Version  : 28.0.0
+Release  : 37
+URL      : https://files.pythonhosted.org/packages/ad/63/d8f7caf2801747607b66e78a0fc00dcc936bce1bed0ac2ba7b4f3caddb45/azure_mgmt_network-28.0.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ad/63/d8f7caf2801747607b66e78a0fc00dcc936bce1bed0ac2ba7b4f3caddb45/azure_mgmt_network-28.0.0.tar.gz
 Summary  : Microsoft Azure Network Management Client Library for Python
 Group    : Development/Tools
 License  : MIT
@@ -59,10 +59,10 @@ python3 components for the pypi-azure_mgmt_network package.
 
 
 %prep
-%setup -q -n azure_mgmt_network-27.0.0
-cd %{_builddir}/azure_mgmt_network-27.0.0
+%setup -q -n azure_mgmt_network-28.0.0
+cd %{_builddir}/azure_mgmt_network-28.0.0
 pushd ..
-cp -a azure_mgmt_network-27.0.0 buildavx2
+cp -a azure_mgmt_network-28.0.0 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1727262706
+export SOURCE_DATE_EPOCH=1730471762
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
